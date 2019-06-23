@@ -1,2 +1,2 @@
 # Basic-portfolio
-bp
+In this project I updated the css a little and tried to deploy repos and projects to links in the html, but I had trouble doing so as my ghithub pages would keep pooping a 404 error. I dont understand why it wont deploy them or allow any of the projects to be viewed. I tackled the propblem with as much as I could and even reviewied some of the videos and searched but nothing wanted to work. i updated most projects and made the code as readble as i could make it. will keep updating my portfolio.
