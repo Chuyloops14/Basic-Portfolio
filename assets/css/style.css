@@ -4,7 +4,8 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  /* background: url("../images/concrete_seamless.png") */
+    background: url(http://unsplash.it/1499/1000);
 }
 
 * {
@@ -125,7 +126,7 @@ h3, h2 {
   min-height: calc(100vh - 70px);
 }
 
-.main-section {
+/* .main-section {
   float: left;
   width: 100%;
   max-width: 960px;
@@ -133,6 +134,17 @@ h3, h2 {
   margin: 0 0 40px;
   background: #ffffff;
   border: 1px solid #dddddd;
+} */
+.main-section {
+color: whitesmoke;
+opacity: 0.8;
+border-radius: 2px;
+font-size: 13px;
+background: #ececec;
+box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+padding: 30px;
+/* margin: 0 0 0;	 */
+position: relative;	
 }
 
 /* portfolio page */
@@ -224,7 +236,8 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777;
-  background: url("../images/concrete_seamless.png");
+  /* background: url("../images/concrete_seamless.png"); */
+  background: url(http://unsplash.it/1499/1000);
 }
 
 * {
@@ -277,8 +290,8 @@ nav a:hover {
 
 .container {
   width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
+  /* max-width: 960px; */
+  /* margin: 0 auto; */
   clear: both;
 }
 
@@ -287,6 +300,7 @@ h2,
 h3,
 p {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 p:last-child {
@@ -410,11 +424,13 @@ h3,
 }
 
 .main-section {
-  float: left;
+  color: black;
+  position: relative;
+  align-content: center;
   width: 100%;
-  max-width: 650px;
+  /* max-width: 650px; */
   padding: 30px;
-  margin: 0 0 40px;
+  /* margin: 0 0 40px; */
   background: #fff;
   border: 1px solid #ddd;
 }
@@ -457,4 +473,18 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+.card {
+  background-color: transparent;
+  height: 200px;
+  width: 50%;
+  color: white;
+  text-align: center;
+  padding: .5in
+}
+
+.card-title{
+  background-color: white;
+  width: 200px
 }
